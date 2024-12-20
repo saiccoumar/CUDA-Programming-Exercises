@@ -66,6 +66,7 @@ NVIDIA tools change rapidly, so there's no guarantee that this will still be ava
 Matrix Multiplication is a quintessential parallelized GPU task. I implemented it in matrix_multiplication.cu and compiled it for windows. Here are the performance metrics:
 ```
 CPU (Intel i13700k) Execution Time: 471.213 ms
+A5000 Execution Time: 0.351008 ms
 4070ti Execution Time: 0.424288 ms
 2080ti Execution Time: 0.224864 ms
 ```
